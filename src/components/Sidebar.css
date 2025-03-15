@@ -1,0 +1,8 @@
+.div-sidebar {
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  display: flex;
+  box-shadow: 3px 1px 8px 2px rgba(166, 175, 195, 0.25);
+  border-radius: 20px;
+}

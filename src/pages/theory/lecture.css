@@ -1,0 +1,1400 @@
+.div-lecture {
+  position: absolute;
+  left: 350px;
+  top: 80px;
+  width: 75%;
+  font-size: 18px;
+  text-align: justify;
+  /*border-radius: 1.5rem;
+  border: 2px solid #e2e8f0;*/
+  padding-bottom: 30px;
+  padding-left: 10px;
+}
+.overline {
+  text-decoration: overline;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.img11 {
+  background-image: url(../theory/img/img11.jpg);
+  background-size: 100% 100%;
+  height: 311px;
+  width: 220px;
+  margin: -16px;
+}
+
+.img12 {
+  background-image: url(../theory/img/img12.jpg);
+  background-size: 100% 100%;
+  height: 311px;
+  width: 220px;
+  margin: -16px;
+}
+
+.img13 {
+  background-image: url(../theory/img/img13.jpg);
+  background-size: 100% 100%;
+  height: 311px;
+  width: 220px;
+  margin: -16px;
+}
+
+.img2 {
+  background-image: url(../theory/img/img2.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 332px;
+  width: 273px;
+  margin: -16px;
+}
+
+.lecture2-formula-1 {
+  background-image: url(../theory/img/lecture2-formula1.png);
+  background-size: 100% 100%;
+  height: 65px;
+  width: 144px;
+  margin: -16px;
+}
+
+.lecture2-formula-2 {
+  background-image: url(../theory/img/lecture2-formula2.png);
+  background-size: 100% 100%;
+  height: 64px;
+  width: 107px;
+  margin: -16px;
+}
+
+.lecture3-formula-1 {
+  background-image: url(../theory/img/img_lecture3/lecture3-formula1.png);
+  background-size: 100% 100%;
+  height: 86px;
+  width: 374px;
+  margin: -16px;
+}
+
+.lecture3-formula-2 {
+  background-image: url(../theory/img/img_lecture3/lecture3-formula2.png);
+  background-size: 100% 100%;
+  height: 88px;
+  width: 366px;
+  margin: -16px;
+}
+
+.lecture3-formula-3 {
+  background-image: url(../theory/img/img_lecture3/lecture3-formula3.png);
+  background-size: 100% 100%;
+  height: 78px;
+  width: 357px;
+  margin: -16px;
+}
+
+.lecture3-formula-4 {
+  background-image: url(../theory/img/img_lecture3/lecture3-formula4.png);
+  background-size: 100% 100%;
+  height: 78px;
+  width: 357px;
+  margin: -16px;
+}
+
+.lecture4-formula-1 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula1.png);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 155px;
+  margin: -16px;
+}
+
+.lecture4-formula-2 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula2.png);
+  background-size: 100% 100%;
+  height: 65px;
+  width: 270px;
+  margin: -16px;
+}
+
+.lecture4-formula-3 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula3.png);
+  background-size: 100% 100%;
+  height: 180px;
+  width: 500px;
+  margin: -16px;
+}
+.lecture4-formula-4 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula4.png);
+  background-size: 100% 100%;
+  height: 58px;
+  width: 262px;
+  margin: -16px;
+}
+.lecture4-formula-5 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula5.png);
+  background-size: 100% 100%;
+  height: 58px;
+  width: 140px;
+  margin: -16px;
+}
+.lecture4-formula-6 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula6.png);
+  background-size: 100% 100%;
+  height: 62px;
+  width: 140px;
+  margin: -16px;
+}
+.lecture4-formula-7 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula7.png);
+  background-size: 100% 100%;
+  height: 253px;
+  width: 672px;
+  margin: -16px;
+}
+.lecture4-formula-8 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula8.png);
+  background-size: 100% 100%;
+  height: 244px;
+  width: 656px;
+  margin: -16px;
+}
+.lecture4-formula-9 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula9.png);
+  background-size: 100% 100%;
+  height: 132px;
+  width: 487px;
+  margin: -16px;
+}
+.lecture4-formula-10 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula10.png);
+  background-size: 100% 100%;
+  height: 132px;
+  width: 486px;
+  margin: -16px;
+}
+.lecture4-formula-11 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula11.png);
+  background-size: 100% 100%;
+  height: 129px;
+  width: 587px;
+  margin: -16px;
+}
+.lecture4-formula-12 {
+  background-image: url(../theory/img/img_lecture4/lecture4-formula12.png);
+  background-size: 100% 100%;
+  height: 100px;
+  width: 518px;
+  margin: -16px;
+}
+.lecture5-formula-1 {
+  background-image: url(../theory/img/img_lecture5/lecture5-formula1.png);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 120px;
+  margin: -16px;
+}
+.lecture5-formula-2 {
+  background-image: url(../theory/img/img_lecture5/lecture5-formula2.png);
+  background-size: 100% 100%;
+  height: 176px;
+  width: 334px;
+  margin: -16px;
+}
+.lecture5-formula-3 {
+  background-image: url(../theory/img/img_lecture5/lecture5-formula3.png);
+  background-size: 100% 100%;
+  height: 260px;
+  width: 665px;
+  margin: -16px;
+}
+.lecture5-formula-4 {
+  background-image: url(../theory/img/img_lecture5/lecture5-formula4.png);
+  background-size: 100% 100%;
+  height: 244px;
+  width: 683px;
+  margin: -16px;
+}
+.lecture6-formula-1 {
+  background-image: url(../theory/img/img_lecture6/lecture6-formula1.png);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 120px;
+  margin: -16px;
+}
+.lecture6-formula-2 {
+  background-image: url(../theory/img/img_lecture6/lecture6-formula2.png);
+  background-size: 100% 100%;
+  height: 191px;
+  width: 372px;
+  margin: -16px;
+}
+.lecture6-formula-3 {
+  background-image: url(../theory/img/img_lecture6/lecture6-formula3.png);
+  background-size: 100% 100%;
+  height: 249px;
+  width: 651px;
+  margin: -16px;
+}
+.lecture6-formula-4 {
+  background-image: url(../theory/img/img_lecture6/lecture6-formula4.png);
+  background-size: 100% 100%;
+  height: 190px;
+  width: 563px;
+  margin: -16px;
+}
+.lecture6-formula-5 {
+  background-image: url(../theory/img/img_lecture6/lecture6-formula5.png);
+  background-size: 100% 100%;
+  height: 185px;
+  width: 562px;
+  margin: -16px;
+}
+.lecture7-formula-1 {
+  background-image: url(../theory/img/img_lecture7/lecture7-formula1.png);
+  background-size: 100% 100%;
+  height: 70px;
+  width: 125px;
+  margin: -16px;
+}
+.lecture7-formula-2 {
+  background-image: url(../theory/img/img_lecture7/lecture7-formula2.png);
+  background-size: 100% 100%;
+  height: 205px;
+  width: 440px;
+  margin: -16px;
+}
+.lecture7-formula-3 {
+  background-image: url(../theory/img/img_lecture7/lecture7-formula3.png);
+  background-size: 100% 100%;
+  height: 290px;
+  width: 753px;
+  margin: -16px;
+}
+.lecture7-formula-4 {
+  background-image: url(../theory/img/img_lecture7/lecture7-formula4.png);
+  background-size: 100% 100%;
+  height: 205px;
+  width: 690px;
+  margin: -16px;
+}
+.lecture8-formula-1 {
+  background-image: url(../theory/img/img_lecture8/lecture8-formula1.png);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 125px;
+  margin: -16px;
+}
+.lecture8-formula-2 {
+  background-image: url(../theory/img/img_lecture8/lecture8-formula2.png);
+  background-size: 100% 100%;
+  height: 221px;
+  width: 390px;
+  margin: -16px;
+}
+.lecture8-formula-3 {
+  background-image: url(../theory/img/img_lecture8/lecture8-formula3.png);
+  background-size: 100% 100%;
+  height: 290px;
+  width: 750px;
+  margin: -16px;
+}
+.lecture9-formula-1 {
+  background-image: url(../theory/img/img_lecture9/lecture9-formula1.png);
+  background-size: 100% 100%;
+  height: 80px;
+  width: 140px;
+
+  margin: -16px;
+}
+.lecture9-formula-2 {
+  background-image: url(../theory/img/img_lecture9/lecture9-formula2.png);
+  background-size: 100% 100%;
+  height: 110px;
+  width: 206px;
+  margin: -16px;
+}
+.lecture9-formula-3 {
+  background-image: url(../theory/img/img_lecture9/lecture9-formula3.png);
+  background-size: 100% 100%;
+  height: 242px;
+  width: 450px;
+  margin: -16px;
+}
+.lecture9-formula-4 {
+  background-image: url(../theory/img/img_lecture9/lecture9-formula4.png);
+  background-size: 100% 100%;
+  height: 295px;
+  width: 763px;
+  margin: -16px;
+}
+.lecture10-formula-1 {
+  background-image: url(../theory/img/img_lecture10/lecture10-formula1.png);
+  background-size: 100% 100%;
+  height: 143px;
+  width: 386px;
+  margin: -16px;
+}
+.lecture10-formula-2 {
+  background-image: url(../theory/img/img_lecture10/lecture10-formula2.png);
+  background-size: 100% 100%;
+  height: 238px;
+  width: 362px;
+  margin: -16px;
+}
+.lecture11-formula-1 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula1.png);
+  background-size: 100% 100%;
+  height: 37px;
+  width: 132px;
+  margin: -16px;
+}
+.lecture11-formula-2 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula2.png);
+  background-size: 100% 100%;
+  height: 66px;
+  width: 175px;
+  margin: -16px;
+}
+.lecture11-formula-3 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula3.png);
+  background-size: 100% 100%;
+  height: 158px;
+  width: 123px;
+  margin: -16px;
+}
+.lecture11-formula-4 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula4.png);
+  background-size: 100% 100%;
+  height: 58px;
+  width: 377px;
+  margin: -16px;
+}
+.lecture11-formula-5 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula5.png);
+  background-size: 100% 100%;
+  height: 73px;
+  width: 260px;
+  margin: -16px;
+}
+.lecture11-formula-6 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula6.png);
+  background-size: 100% 100%;
+  height: 178px;
+  width: 545px;
+  margin: -16px;
+}
+.lecture11-formula-7 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula7.png);
+  background-size: 100% 100%;
+  height: 70px;
+  width: 201px;
+  margin: -16px;
+}
+.lecture11-formula-8 {
+  background-image: url(../theory/img/img_lecture11/lecture11-formula8.png);
+  background-size: 100% 100%;
+  height: 37px;
+  width: 181px;
+}
+.lecture12-formula-1 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula1.png);
+  background-size: 100% 100%;
+  height: 43px;
+  width: 95px;
+}
+.lecture12-formula-2 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula2.png);
+  background-size: 100% 100%;
+  height: 48px;
+  width: 119px;
+}
+.lecture12-formula-3 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula3.png);
+  background-size: 100% 100%;
+  height: 46px;
+  width: 141px;
+}
+.lecture12-formula-4 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula4.png);
+  background-size: 100% 100%;
+  height: 96px;
+  width: 102px;
+}
+.lecture12-formula-5 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula5.png);
+  background-size: 100% 100%;
+  height: 61px;
+  width: 104px;
+}
+.lecture12-formula-6 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula6.png);
+  background-size: 100% 100%;
+  height: 34px;
+  width: 87px;
+}
+.lecture12-formula-7 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula7.png);
+  background-size: 100% 100%;
+  height: 43px;
+  width: 97px;
+}
+.lecture12-formula-8 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula8.png);
+  background-size: 100% 100%;
+  height: 48px;
+  width: 88px;
+}
+.lecture12-formula-9 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula9.png);
+  background-size: 100% 100%;
+  height: 35px;
+  width: 85px;
+}
+.lecture12-formula-10 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula10.png);
+  background-size: 100% 100%;
+  height: 46px;
+  width: 95px;
+}
+.lecture12-formula-11 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula11.png);
+  background-size: 100% 100%;
+  height: 50px;
+  width: 92px;
+}
+.lecture12-formula-12 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula12.png);
+  background-size: 100% 100%;
+  height: 39px;
+  width: 110px;
+}
+.lecture12-formula-13 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula13.png);
+  background-size: 100% 100%;
+  height: 43px;
+  width: 100px;
+}
+.lecture12-formula-14 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula14.png);
+  background-size: 100% 100%;
+  height: 52px;
+  width: 85px;
+}
+.lecture12-formula-15 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula15.png);
+  background-size: 100% 100%;
+  height: 36px;
+  width: 95px;
+}
+
+.lecture12-formula-16 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula16.png);
+  background-size: 100% 100%;
+  height: 43px;
+  width: 97px;
+}
+.lecture12-formula-17 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula17.png);
+  background-size: 100% 100%;
+  height: 58px;
+  width: 100px;
+}
+.lecture12-formula-18 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula18.png);
+  background-size: 100% 100%;
+  height: 38px;
+  width: 106px;
+}
+
+.lecture12-formula-19 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula19.png);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 99px;
+}
+.lecture12-formula-20 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula20.png);
+  background-size: 100% 100%;
+  height: 82px;
+  width: 200px;
+}
+.lecture12-formula-21 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula21.png);
+  background-size: 100% 100%;
+  height: 81px;
+  width: 171px;
+}
+
+.lecture12-formula-22 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula22.png);
+  background-size: 100% 100%;
+  height: 56px;
+  width: 97px;
+}
+.lecture12-formula-23 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula23.png);
+  background-size: 100% 100%;
+  height: 79px;
+  width: 182px;
+}
+.lecture12-formula-24 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula24.png);
+  background-size: 100% 100%;
+  height: 81px;
+  width: 169px;
+}
+
+.lecture12-formula-25 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula25.png);
+  background-size: 100% 100%;
+  height: 49px;
+  width: 95px;
+}
+.lecture12-formula-26 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula26.png);
+  background-size: 100% 100%;
+  height: 71px;
+  width: 145px;
+}
+.lecture12-formula-27 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula27.png);
+  background-size: 100% 100%;
+  height: 54px;
+  width: 132px;
+}
+
+.lecture12-formula-28 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula28.png);
+  background-size: 100% 100%;
+  height: 38px;
+  width: 96px;
+}
+.lecture12-formula-29 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula29.png);
+  background-size: 100% 100%;
+  height: 51px;
+  width: 129px;
+}
+.lecture12-formula-30 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula30.png);
+  background-size: 100% 100%;
+  height: 36px;
+  width: 113px;
+}
+
+.lecture12-formula-31 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula31.png);
+  background-size: 100% 100%;
+  height: 55px;
+  width: 94px;
+}
+.lecture12-formula-32 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula32.png);
+  background-size: 100% 100%;
+  height: 71px;
+  width: 196px;
+}
+.lecture12-formula-33 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula33.png);
+  background-size: 100% 100%;
+  height: 100px;
+  width: 157px;
+}
+
+.lecture12-formula-34 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula34.png);
+  background-size: 100% 100%;
+  height: 47px;
+  width: 98px;
+}
+.lecture12-formula-35 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula35.png);
+  background-size: 100% 100%;
+  height: 105px;
+  width: 297px;
+}
+.lecture12-formula-36 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula36.png);
+  background-size: 100% 100%;
+  height: 112px;
+  width: 260px;
+}
+
+.lecture12-formula-37 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula37.png);
+  background-size: 100% 100%;
+  height: 35px;
+  width: 190px;
+  margin: 0px;
+}
+
+.lecture12-formula-38 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula38.png);
+  background-size: 100% 100%;
+  height: 103px;
+  width: 577px;
+  margin: -16px;
+}
+
+.lecture12-formula-39 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula39.png);
+  background-size: 100% 100%;
+  height: 47px;
+  width: 225px;
+  margin: -16px;
+}
+
+.lecture12-formula-40 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula40.png);
+  background-size: 100% 100%;
+  height: 245px;
+  width: 525px;
+}
+
+.lecture12-formula-41 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula41.png);
+  background-size: 100% 100%;
+  height: 260px;
+  width: 561px;
+}
+.lecture12-formula-42 {
+  background-image: url(../theory/img/img_lecture12/lecture12-formula42.png);
+  background-size: 100% 100%;
+  height: 50px;
+  width: 228px;
+}
+
+.lecture20-formula-1 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula1.png);
+  background-size: 100% 100%;
+  height: 31px;
+  width: 517px;
+  margin: -16px;
+}
+.lecture20-formula-2 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula2.png);
+  background-size: 100% 100%;
+  height: 93px;
+  width: 381px;
+  margin: -16px;
+}
+.lecture20-formula-3 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula3.png);
+  background-size: 100% 100%;
+  height: 115px;
+  width: 190px;
+  margin: -16px;
+}
+.lecture20-formula-4 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula4.png);
+  background-size: 100% 100%;
+  height: 250px;
+  width: 556px;
+  margin: -16px;
+}
+.lecture20-formula-5 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula5.png);
+  background-size: 100% 100%;
+  height: 114px;
+  width: 335px;
+  margin: -16px;
+}
+.lecture20-formula-6 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula6.png);
+  background-size: 100% 100%;
+  height: 113px;
+  width: 193px;
+  margin: -16px;
+}
+.lecture20-formula-7 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula7.png);
+  background-size: 100% 100%;
+  height: 216px;
+  width: 172px;
+}
+.lecture20-formula-8 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula8.png);
+  background-size: 100% 100%;
+  height: 125px;
+  width: 202px;
+}
+.lecture20-formula-9 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula9.png);
+  background-size: 100% 100%;
+  height: 97px;
+  width: 162px;
+}
+.lecture20-formula-10 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula10.png);
+  background-size: 100% 100%;
+  height: 106px;
+  width: 179px;
+}
+.lecture20-formula-11 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula11.png);
+  background-size: 100% 100%;
+  height: 210px;
+  width: 177px;
+}
+.lecture20-formula-12 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula12.png);
+  background-size: 100% 100%;
+  height: 119px;
+  width: 182px;
+}
+.lecture20-formula-13 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula13.png);
+  background-size: 100% 100%;
+  height: 109px;
+  width: 159px;
+}
+.lecture20-formula-14 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula14.png);
+  background-size: 100% 100%;
+  height: 164px;
+  width: 316px;
+}
+.lecture20-formula-15 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula15.png);
+  background-size: 100% 100%;
+  height: 104px;
+  width: 161px;
+}
+.lecture20-formula-16 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula16.png);
+  background-size: 100% 100%;
+  height: 166px;
+  width: 285px;
+}
+.lecture20-formula-17 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula17.png);
+  background-size: 100% 100%;
+  height: 103px;
+  width: 162px;
+}
+.lecture20-formula-18 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula18.png);
+  background-size: 100% 100%;
+  height: 139px;
+  width: 212px;
+}
+.lecture20-formula-19 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula19.png);
+  background-size: 100% 100%;
+  height: 100px;
+  width: 163px;
+}
+.lecture20-formula-20 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula20.png);
+  background-size: 100% 100%;
+  height: 107px;
+  width: 201px;
+}
+.lecture20-formula-21 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula21.png);
+  background-size: 100% 100%;
+  height: 100px;
+  width: 162px;
+}
+.lecture20-formula-22 {
+  background-image: url(../theory/img/img_lecture20/lecture20-formula22.png);
+  background-size: 100% 100%;
+  height: 165px;
+  width: 332px;
+}
+.lecture13-formula-1 {
+  background-image: url(../theory/img/img_lecture13/lecture13-formula1.png);
+  background-size: 100% 100%;
+  height: 56px;
+  width: 163px;
+  margin: -16px;
+}
+.lecture13-formula-2 {
+  background-image: url(../theory/img/img_lecture13/lecture13-formula2.png);
+  background-size: 100% 100%;
+  height: 86px;
+  width: 443px;
+  margin: -16px;
+}
+.lecture13-formula-3 {
+  background-image: url(../theory/img/img_lecture13/lecture13-formula3.png);
+  background-size: 100% 100%;
+  height: 189px;
+  width: 255px;
+  margin: -16px;
+}
+.lecture13-formula-4 {
+  background-image: url(../theory/img/img_lecture13/lecture13-formula4.png);
+  background-size: 100% 100%;
+  height: 76px;
+  width: 327px;
+  margin: -16px;
+}
+.lecture13-formula-5 {
+  background-image: url(../theory/img/img_lecture13/lecture13-formula5.png);
+  background-size: 100% 100%;
+  height: 121px;
+  width: 434px;
+  margin: -16px;
+}
+.lecture13-formula-6 {
+  background-image: url(../theory/img/img_lecture13/lecture13-formula6.png);
+  background-size: 100% 100%;
+  height: 51px;
+  width: 176px;
+  margin: -16px;
+}
+.lecture13-formula-7 {
+  background-image: url(../theory/img/img_lecture13/lecture13-formula7.png);
+  background-size: 100% 100%;
+  height: 424px;
+  width: 535px;
+  margin: -16px;
+}
+.lecture14-formula-1 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula1.png);
+  background-size: 100% 100%;
+  height: 53px;
+  width: 168px;
+  margin: -16px;
+}
+.lecture14-formula-2 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula2.png);
+  background-size: 100% 100%;
+  height: 356px;
+  width: 390px;
+  margin: -16px;
+}
+.lecture14-formula-3 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula3.png);
+  background-size: 100% 100%;
+  height: 49px;
+  width: 270px;
+  margin: -16px;
+}
+.lecture14-formula-4 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula4.png);
+  background-size: 100% 100%;
+  height: 232px;
+  width: 418px;
+  margin: -16px;
+}
+.lecture14-formula-5 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula5.png);
+  background-size: 100% 100%;
+  height: 50px;
+  width: 274px;
+  margin: -16px;
+}
+.lecture14-formula-6 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula6.png);
+  background-size: 100% 100%;
+  height: 104px;
+  width: 288px;
+  margin: -16px;
+}
+.lecture14-formula-7 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula7.png);
+  background-size: 100% 100%;
+  height: 204px;
+  width: 412px;
+  margin: -16px;
+}
+.lecture14-formula-8 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula8.png);
+  background-size: 100% 100%;
+  height: 439px;
+  width: 469px;
+  margin: -16px;
+}
+.lecture14-formula-9 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula9.png);
+  background-size: 100% 100%;
+  height: 223px;
+  width: 359px;
+  margin: -16px;
+}
+.lecture14-formula-10 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula10.png);
+  background-size: 100% 100%;
+  height: 260px;
+  width: 294px;
+  margin: -16px;
+}
+.lecture14-formula-11 {
+  background-image: url(../theory/img/img_lecture14/lecture14-formula11.png);
+  background-size: 100% 100%;
+  height: 246px;
+  width: 590px;
+  margin: -16px;
+}
+.lecture15-formula-1 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula1.png);
+  background-size: 100% 100%;
+  height: 47px;
+  width: 164px;
+  margin: -16px;
+}
+.lecture15-formula-2 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula2.png);
+  background-size: 100% 100%;
+  height: 231px;
+  width: 393px;
+  margin: -16px;
+}
+.lecture15-formula-3 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula3.png);
+  background-size: 100% 100%;
+  height: 56px;
+  width: 326px;
+  margin: -16px;
+}
+.lecture15-formula-4 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula4.png);
+  background-size: 100% 100%;
+  height: 43px;
+  width: 313px;
+  margin: -16px;
+}
+.lecture15-formula-5 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula5.png);
+  background-size: 100% 100%;
+  height: 47px;
+  width: 326px;
+  margin: -16px;
+}
+.lecture15-formula-6 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula6.png);
+  background-size: 100% 100%;
+  height: 217px;
+  width: 584px;
+  margin: -16px;
+}
+.lecture15-formula-7 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula7.png);
+  background-size: 100% 100%;
+  height: 43px;
+  width: 566px;
+  margin: -16px;
+}
+.lecture15-formula-8 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula8.png);
+  background-size: 100% 100%;
+  height: 40px;
+  width: 189px;
+  margin: -16px;
+}
+.lecture15-formula-9 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula9.png);
+  background-size: 100% 100%;
+  height: 36px;
+  width: 202px;
+  margin: -16px;
+}
+.lecture15-formula-10 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula10.png);
+  background-size: 100% 100%;
+  height: 75px;
+  width: 208px;
+  margin: -16px;
+}
+.lecture15-formula-11 {
+  background-image: url(../theory/img/img_lecture15/lecture15-formula11.png);
+  background-size: 100% 100%;
+  height: 196px;
+  width: 584px;
+  margin: -16px;
+}
+.lecture16-formula-1 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula1.png);
+  background-size: 100% 100%;
+  height: 110px;
+  width: 615px;
+  margin: -16px;
+}
+.lecture16-formula-2 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula2.png);
+  background-size: 100% 100%;
+  height: 179px;
+  width: 372px;
+  margin: -16px;
+}
+.lecture16-formula-3 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula3.png);
+  background-size: 100% 100%;
+  height: 111px;
+  width: 173px;
+  margin: -16px;
+}
+.lecture16-formula-4 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula4.png);
+  background-size: 100% 100%;
+  height: 127px;
+  width: 179px;
+  margin: -16px;
+}
+.lecture16-formula-5 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula5.png);
+  background-size: 100% 100%;
+  height: 175px;
+  width: 360px;
+  margin: -16px;
+}
+.lecture16-formula-6 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula6.png);
+  background-size: 100% 100%;
+  height: 109px;
+  width: 174px;
+  margin: -16px;
+}
+.lecture16-formula-7 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula7.png);
+  background-size: 100% 100%;
+  height: 129px;
+  width: 182px;
+  margin: -16px;
+}
+.lecture16-formula-8 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula8.png);
+  background-size: 100% 100%;
+  height: 176px;
+  width: 358px;
+  margin: -16px;
+}
+.lecture16-formula-9 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula9.png);
+  background-size: 100% 100%;
+  height: 111px;
+  width: 169px;
+  margin: -16px;
+}
+.lecture16-formula-10 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula10.png);
+  background-size: 100% 100%;
+  height: 134px;
+  width: 177px;
+  margin: -16px;
+}
+.lecture16-formula-11 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula11.png);
+  background-size: 100% 100%;
+  height: 178px;
+  width: 365px;
+  margin: -16px;
+}
+.lecture16-formula-12 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula12.png);
+  background-size: 100% 100%;
+  height: 118px;
+  width: 178px;
+  margin: -16px;
+}
+.lecture16-formula-13 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula13.png);
+  background-size: 100% 100%;
+  height: 142px;
+  width: 565px;
+  margin: -16px;
+}
+.lecture16-formula-14 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula14.png);
+  background-size: 100% 100%;
+  height: 145px;
+  width: 443px;
+  margin: -16px;
+}
+.lecture16-formula-15 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula15.png);
+  background-size: 100% 100%;
+  height: 150px;
+  width: 528px;
+  margin: -16px;
+}
+.lecture16-formula-16 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula16.png);
+  background-size: 100% 100%;
+  height: 102px;
+  width: 527px;
+  margin: -16px;
+}
+.lecture16-formula-17 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula17.png);
+  background-size: 100% 100%;
+  height: 48px;
+  width: 103px;
+  margin: -16px;
+}
+.lecture16-formula-18 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula18.png);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 117px;
+  margin: -16px;
+}
+.lecture16-formula-19 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula19.png);
+  background-size: 100% 100%;
+  height: 52px;
+  width: 102px;
+  margin: -10px;
+}
+.lecture16-formula-20 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula20.png);
+  background-size: 100% 100%;
+  height: 52px;
+  width: 112px;
+  margin: -10px;
+}
+.lecture16-formula-21 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula21.png);
+  background-size: 100% 100%;
+  height: 267px;
+  width: 517px;
+  margin: -10px;
+}
+.lecture16-formula-22 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula22.png);
+  background-size: 100% 100%;
+  height: 162px;
+  width: 545px;
+  margin: -10px;
+}
+.lecture16-formula-23 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula23.png);
+  background-size: 100% 100%;
+  height: 62px;
+  width: 167px;
+  margin: -10px;
+}
+.lecture16-formula-24 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula24.png);
+  background-size: 100% 100%;
+  height: 62px;
+  width: 268px;
+  margin: -10px;
+}
+.lecture16-formula-25 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula25.png);
+  background-size: 100% 100%;
+  height: 62px;
+  width: 422px;
+  margin: -16px;
+}
+.lecture16-formula-26 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula26.png);
+  background-size: 100% 100%;
+  height: 61px;
+  width: 162px;
+  margin: -16px;
+}
+.lecture16-formula-27 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula27.png);
+  background-size: 100% 100%;
+  height: 71px;
+  width: 287px;
+  margin: -16px;
+}
+.lecture16-formula-28 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula28.png);
+  background-size: 100% 100%;
+  height: 60px;
+  width: 372px;
+  margin: -16px;
+}
+.lecture16-formula-29 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula29.png);
+  background-size: 100% 100%;
+  height: 66px;
+  width: 587px;
+  margin: -16px;
+}
+.lecture16-formula-30 {
+  background-image: url(../theory/img/img_lecture16/lecture16-formula30.png);
+  background-size: 100% 100%;
+  height: 61px;
+  width: 218px;
+  margin: -16px;
+}
+.lecture17-formula-1 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula1.png);
+  background-size: 100% 100%;
+  height: 88px;
+  width: 216px;
+  margin: -16px;
+}
+.lecture17-formula-2 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula2.png);
+  background-size: 100% 100%;
+  height: 57px;
+  width: 145px;
+  margin: -16px;
+}
+.lecture17-formula-3 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula3.png);
+  background-size: 100% 100%;
+  height: 53px;
+  width: 266px;
+  margin: -16px;
+}
+.lecture17-formula-4 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula4.png);
+  background-size: 100% 100%;
+  height: 56px;
+  width: 410px;
+  margin: -16px;
+}
+.lecture17-formula-5 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula5.png);
+  background-size: 100% 100%;
+  height: 53px;
+  width: 220px;
+  margin: -16px;
+}
+.lecture17-formula-6 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula6.png);
+  background-size: 100% 100%;
+  height: 202px;
+  width: 285px;
+  margin: -16px;
+}
+.lecture17-formula-7 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula7.png);
+  background-size: 100% 100%;
+  height: 212px;
+  width: 400px;
+  margin: -16px;
+}
+.lecture17-formula-8 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula8.png);
+  background-size: 100% 100%;
+  height: 135px;
+  width: 441px;
+  margin: -16px;
+}
+.lecture17-formula-9 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula9.png);
+  background-size: 100% 100%;
+  height: 687px;
+  width: 605px;
+  margin: -16px;
+}
+.lecture17-formula-10 {
+  background-image: url(../theory/img/img_lecture17/lecture17-formula10.png);
+  background-size: 100% 100%;
+  height: 212px;
+  width: 466px;
+  margin: -16px;
+}
+.lecture18-formula-1 {
+  background-image: url(../theory/img/img_lecture18/lecture18-formula1.png);
+  background-size: 100% 100%;
+  height: 52px;
+  width: 210px;
+  margin: -16px;
+}
+.lecture18-formula-2 {
+  background-image: url(../theory/img/img_lecture18/lecture18-formula2.png);
+  background-size: 100% 100%;
+  height: 68px;
+  width: 192px;
+  margin: -16px;
+}
+.lecture18-formula-3 {
+  background-image: url(../theory/img/img_lecture18/lecture18-formula3.png);
+  background-size: 100% 100%;
+  height: 236px;
+  width: 593px;
+  margin: -16px;
+}
+.lecture18-formula-4 {
+  background-image: url(../theory/img/img_lecture18/lecture18-formula4.png);
+  background-size: 100% 100%;
+  height: 77px;
+  width: 130px;
+  margin: -16px;
+}
+.lecture18-formula-5 {
+  background-image: url(../theory/img/img_lecture18/lecture18-formula5.png);
+  background-size: 100% 100%;
+  height: 71px;
+  width: 286px;
+  margin: -16px;
+}
+.lecture19-formula-1 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula1.png);
+  background-size: 100% 100%;
+  height: 57px;
+  width: 221px;
+  margin: -16px;
+}
+.lecture19-formula-2 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula2.png);
+  background-size: 100% 100%;
+  height: 57px;
+  width: 289px;
+  margin: -16px;
+}
+.lecture19-formula-3 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula3.png);
+  background-size: 100% 100%;
+  height: 57px;
+  width: 373px;
+  margin: -16px;
+}
+.lecture19-formula-4 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula4.png);
+  background-size: 100% 100%;
+  height: 61px;
+  width: 571px;
+  margin: -16px;
+}
+.lecture19-formula-5 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula5.png);
+  background-size: 100% 100%;
+  height: 158px;
+  width: 496px;
+  margin: -16px;
+}
+.lecture19-formula-6 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula6.png);
+  background-size: 100% 100%;
+  height: 167px;
+  width: 599px;
+  margin: -16px;
+}
+.lecture19-formula-7 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula7.png);
+  background-size: 100% 100%;
+  height: 178px;
+  width: 616px;
+  margin: -16px;
+}
+.lecture19-formula-8 {
+  background-image: url(../theory/img/img_lecture19/lecture19-formula8.png);
+  background-size: 100% 100%;
+  height: 165px;
+  width: 324px;
+  margin: -16px;
+}
+
+.tabs {
+  margin-left: 50px;
+}
+
+td,
+th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  width: 120px;
+  border-collapse: collapse;
+  border: 2px solid white;
+}
+
+.table-forml {
+  width: 70px;
+  border: 2px solid white;
+}
