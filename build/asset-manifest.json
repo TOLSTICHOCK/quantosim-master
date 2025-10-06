@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bd1b6ff.css",
-    "main.js": "/static/js/main.0e04e68d.js",
-    "static/js/787.810567ba.chunk.js": "/static/js/787.810567ba.chunk.js",
+    "main.css": "/static/css/main.64b24995.css",
+    "main.js": "/static/js/main.985b2023.js",
+    "static/js/453.c2d7fa39.chunk.js": "/static/js/453.c2d7fa39.chunk.js",
     "static/media/video1.mp4": "/static/media/video1.a6ea5b0513e44aabdbb8.mp4",
-    "static/media/tsu_logo.svg": "/static/media/tsu_logo.e0a3eed5badc4c92f2f9.svg",
+    "static/media/tsu_logo.svg": "/static/media/tsu_logo.55818cd275bf3d89f30f.svg",
     "static/media/lecture9-formula4.png": "/static/media/lecture9-formula4.895e72a293bbbbfe242f.png",
     "static/media/lecture7-formula3.png": "/static/media/lecture7-formula3.99cf87db3de07882a994.png",
     "static/media/lecture8-formula3.png": "/static/media/lecture8-formula3.4adcf7091615e6f74484.png",
@@ -47,12 +47,12 @@
     "static/media/lecture20-formula7.png": "/static/media/lecture20-formula7.3f77fc4d56198c8e2cf7.png",
     "static/media/icons8-trash.svg": "/static/media/icons8-trash.ddade64e2cede4381a65.svg",
     "index.html": "/index.html",
-    "main.0bd1b6ff.css.map": "/static/css/main.0bd1b6ff.css.map",
-    "main.0e04e68d.js.map": "/static/js/main.0e04e68d.js.map",
-    "787.810567ba.chunk.js.map": "/static/js/787.810567ba.chunk.js.map"
+    "main.64b24995.css.map": "/static/css/main.64b24995.css.map",
+    "main.985b2023.js.map": "/static/js/main.985b2023.js.map",
+    "453.c2d7fa39.chunk.js.map": "/static/js/453.c2d7fa39.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bd1b6ff.css",
-    "static/js/main.0e04e68d.js"
+    "static/css/main.64b24995.css",
+    "static/js/main.985b2023.js"
   ]
 }

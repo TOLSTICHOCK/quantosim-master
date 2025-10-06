@@ -52,7 +52,7 @@
   top: 80px;
   display: flex;
   flex-flow: column nowrap;
-  width: 1150px;
+  width: 70%;
 }
 
 .menu-container {
@@ -64,8 +64,9 @@
   display: flex;
   flex-flow: column wrap;
   height: 100%;
-  width: 80%;
+  width: 60%;
   margin-bottom: 10px;
+  margin-right: 150px;
   /* overflow: auto;*/
 }
 .menu-header {
@@ -111,7 +112,6 @@
 .trash-icon {
   background-image: url(../circuit/icons8-trash.svg);
   background-size: 100% 100%;
-
   height: 40px;
   width: 40px;
 }
@@ -119,6 +119,8 @@
 .trash {
   height: 40px;
   width: 40px;
+  
+
 }
 
 .buttons-div {
@@ -413,4 +415,10 @@
   margin-right: 80px;
 
   width: 270px;
+}
+
+.qsphere {
+  margin: auto;
+  width: 800px;
+  height: 500px;
 }

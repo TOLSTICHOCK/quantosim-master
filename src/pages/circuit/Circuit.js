@@ -3,6 +3,7 @@ import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
 import Select from "react-select";
 import "../circuit/Circuit.css";
 import Graph from "../circuit/Graph";
+import QSphere from "./QSphere";
 import ErrorMessage from "../circuit/ErrorMessage";
 import { useRef } from "react";
 import useDoubleClick from "use-double-click";
@@ -122,6 +123,7 @@ const Circuit = () => {
   const [choosedGate, setChoosedGate] = useState({});
   const [choosedTargetQubit, setChoosedTargetQubit] = useState();
 
+  const [qsphere, setQsphere] = useState();
   const [graph, setGraph] = useState();
   const [errorMessage, setErrorMessage] = useState();
   const [loading, setLoading] = useState(false);
@@ -1396,6 +1398,15 @@ const Circuit = () => {
                 <div className="line-c"></div>
               </div>
             </div>
+          </div>
+          {qsphere && (
+            <>
+              <QSphere numqbits={numCline} chances={{ "00": 800, 11: 200 }} />
+            </>
+          )}
+
+          <div className="qsphere">
+            <QSphere numqbits={numCline} chances={{ "00": 512, 11: 488 }} />
           </div>
           {graph && (
             <>
