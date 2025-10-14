@@ -1,9 +1,9 @@
 import React from "react";
-import "../theory/practice.css";
+import "../theory/lecture.css";
 
 const Practice2 = () => {
     return(
-        <div className="div-practice">
+        <div className="div-lecture">
             <h3 align="center">Лабораторная работа №2</h3>
             <h4 align="center">Однокубитные гейты</h4>
             <h4 align="center">1. Цель работы</h4>
@@ -18,7 +18,7 @@ const Practice2 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Графическое обозначение</div>
                         </th>
                         <th>
-                            <div className="test">Название гейта</div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Название гейта</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вариант настройки</div>
@@ -26,7 +26,7 @@ const Practice2 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><img src="img/img_practice2/gateH.png" alt="Не получилось загрузить"></img></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateX"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>X</i></div>
@@ -48,7 +48,7 @@ const Practice2 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}} className="gateH"></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>Z</i></div>
@@ -59,7 +59,7 @@ const Practice2 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateH"></p></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateX"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>S</i></div>
@@ -70,7 +70,7 @@ const Practice2 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}} className="gateH"></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>T</i></div>

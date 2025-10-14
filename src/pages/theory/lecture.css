@@ -1398,3 +1398,23 @@ table {
   width: 70px;
   border: 2px solid white;
 }
+
+.gateH {
+  background-image: url(../theory/img/img_practice2/imgH.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 70px;
+  width: 70px;
+};
+
+.gateX {
+  background-image: url(../theory/img/img_practice2/imgX.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 70px;
+  width: 70px;
+};
+
+.imgP3_1 {
+  background-image: url(../theory/img/img_practice3/sum_00_11.png);
+};

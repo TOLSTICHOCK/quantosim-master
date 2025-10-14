@@ -1,9 +1,9 @@
 import React from "react";
-import "../theory/practice.css";
+import "../theory/lecture.css";
 
 const Practice3 = () => {
     return(
-        <div className="div-practice">
+        <div className="div-lecture">
             <h3 align="center">Лабораторная работа №3</h3>
             <h4 align="center">Контролируемые гейты</h4>
             <h4 align="center">1. Цель работы</h4>
@@ -148,6 +148,558 @@ const Practice3 = () => {
                 </tbody>
             </table>
             <h4 align="center">3. Программа работы</h4>
+            <p>Выполните следующие пункты работы:</p>
+            <p>1. Реализуйте схему получения запутанного состояния двух кубитов <i className="imgP3_1"></i>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>2. Реализуйте схему получения запутанного состояния двух кубитов {" 01 + 10"}. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>3. Реализуйте схему получения запутанного состояния двух кубитов {" 00 - 11"}. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>4. Реализуйте схему получения запутанного состояния двух кубитов {" 01 - 10"}. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>5. Реализуйте схему получения запутанного состояния двух кубитов согласно вашему варианту в таблице 2. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p align="right"><i>Таблица 2. Варианты заданий</i></p>
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вариант</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Состояние</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |α|<sup>2</sup></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |β|<sup>2</sup></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>1</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>95</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>2</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>90</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>3</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>80</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>4</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>70</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>80</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>6</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>90</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>7</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>95</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>8</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>95</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>9</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>40</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>60</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>55</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>45</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>11</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>60</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>40</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>12</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>70</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>130</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>90</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>14</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>80</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>15</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>70</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>16</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>70</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <p>6. Реализуйте схему получения запутанного состояния двух кубитов α|00⟩ + β|01⟩ + γ|11⟩, согласно варианту в таблице 3. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p align="right"><i>Таблица 3. Варианты заданий</i></p>
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вариант</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |α|<sup>2</sup></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |β|<sup>2</sup></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |γ|<sup>2</sup></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>1</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>45</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>2</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>40</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>3</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>15</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>35</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>4</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>25</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>25</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>6</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>7</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>35</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>15</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>8</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>40</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>1</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>45</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <p>7. Реализуйте схему получения запутанного состояния двух кубитов α|01⟩ + β|10⟩ + γ|11⟩, согласно варианту в таблице 4. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p align="right"><i>Таблица 4. Варианты заданий</i></p>
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вариант</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |α|<sup>2</sup></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |β|<sup>2</sup></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Вероятность |γ|<sup>2</sup></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>1</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>45</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>2</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>40</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>3</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>15</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>35</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>4</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>25</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>25</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>6</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>7</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>35</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>15</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>8</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>40</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>9</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>45</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>50</div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
+            <p>8. Реализуйте схему получения запутанного состояния двух кубитов α|00⟩ + β|01⟩ + γ|11⟩ с вероятностями |α|<sup>2</sup>=|β|<sup>2</sup>=|γ|<sup>2</sup>=33.33..%. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>9. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>10. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>11. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>12. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>13. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>14. Реализуйте схему получения запутанного состояния трех кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>15. Реализуйте схему получения запутанного состояния трех кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>16.Реализуйте схему получения запутанного состояния трех кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>17.Реализуйте схему получения запутанного состояния трех кубитов α|010⟩ + β|111⟩ с вероятностями согласно таблице 2. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>18.Оформите отчёт по лабораторной работе. Отчет включает в себя скриншоты всех схем и результатов симуляции по программе работы, выводы.</p>
         </div>
     );
 

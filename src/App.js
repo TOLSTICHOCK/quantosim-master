@@ -27,6 +27,7 @@ import LectureShorsAlgorithm from "./pages/theory/LectureShorsAlgorithm";
 import LectureControlledGates from "./pages/theory/LectureControlledGates";
 import Practice2 from "./pages/theory/Practice2";
 import Practice3 from "./pages/theory/Practice3";
+import Practice4 from "./pages/theory/Practice4";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../src/App.css";
 
@@ -254,6 +255,15 @@ const App = () => {
               <>
                 <SidebarMenu />
                 <Practice3 />
+              </>
+            }
+          />
+          <Route
+            path="/practice/practice4"
+            element={
+              <>
+                <SidebarMenu />
+                <Practice4 />
               </>
             }
           />
