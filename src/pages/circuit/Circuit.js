@@ -513,7 +513,7 @@ const Circuit = () => {
         if (val.isOK === true) {
           setLoading(false);
           setGraph(true);
-
+          setQsphere(true);
           const entries = Object.entries(val.hist);
           const dataNew = [];
           const values = Object.values(val.hist);
@@ -533,6 +533,7 @@ const Circuit = () => {
         } else if (val.isOK === false) {
           setLoading(false);
           setGraph(false);
+          setQsphere(false);
           setErrorMessage(val.reason);
         }
         return false;
@@ -569,6 +570,7 @@ const Circuit = () => {
     setChoosedGate([]);
     setMeasGates({});
     setGraph(false);
+    setQsphere(false);
     setErrorMessage(false);
     setNumCline(1);
   };
@@ -1399,15 +1401,15 @@ const Circuit = () => {
               </div>
             </div>
           </div>
-          {qsphere && (
+          {/* {qsphere && (
             <>
               <QSphere numqbits={numCline} chances={{ "00": 800, 11: 200 }} />
             </>
-          )}
+          )} */}
 
-          <div className="qsphere">
+          {/* <div className="qsphere">
             <QSphere numqbits={numCline} chances={{ "00": 512, 11: 488 }} />
-          </div>
+          </div> */}
           {graph && (
             <>
               <Graph data={dataGraph} loading={loading} />

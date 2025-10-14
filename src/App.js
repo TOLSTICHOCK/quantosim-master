@@ -25,6 +25,8 @@ import LectureGroversAlgorithm from "./pages/theory/LectureGroversAlgorithm";
 import LectureQuantumFourierTransform from "./pages/theory/LectureQuantumFourierTransform";
 import LectureShorsAlgorithm from "./pages/theory/LectureShorsAlgorithm";
 import LectureControlledGates from "./pages/theory/LectureControlledGates";
+import Practice2 from "./pages/theory/Practice2";
+import Practice3 from "./pages/theory/Practice3";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../src/App.css";
 
@@ -225,6 +227,33 @@ const App = () => {
               <>
                 <SidebarMenu />
                 <LectureShorsAlgorithm />
+              </>
+            }
+          />
+          <Route
+            path="/practice/practice1"
+            element={
+              <>
+                <SidebarMenu />
+                <LectureShorsAlgorithm />
+              </>
+            }
+          />
+          <Route
+            path="/practice/practice2"
+            element={
+              <>
+                <SidebarMenu />
+                <Practice2 />
+              </>
+            }
+          />
+          <Route
+            path="/practice/practice3"
+            element={
+              <>
+                <SidebarMenu />
+                <Practice3 />
               </>
             }
           />

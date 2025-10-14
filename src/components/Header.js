@@ -5,7 +5,7 @@ const Header = () => {
     <div className="header-main">
       <div className="icons">
         <a
-          href="https://vk.com/rff_tsu"
+          href="https://vk.com/quantumsim"
           rel="noopener noreferrer"
           target="_blank"
           className="vk-icon"

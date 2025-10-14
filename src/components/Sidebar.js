@@ -225,8 +225,51 @@ const SidebarMenu = () => {
             </SubMenu>
           </SubMenu>
           <SubMenu label="Практика">
-            <MenuItem> Практика 1</MenuItem>
-            <MenuItem> Практика 2</MenuItem>
+            <MenuItem component={
+                <NavLink
+                  to="/practice/practice1"
+                  style={styleActive}
+                  />
+              }> Практика 1</MenuItem>
+            <MenuItem component={
+                <NavLink
+                  to="/practice/practice2"
+                  style={styleActive}
+                  />
+                   
+            }> Практика 2</MenuItem>
+            <MenuItem component={
+                <NavLink
+                  to="/practice/practice3"
+                  style={styleActive}
+                  /> 
+            }> Практика 3</MenuItem>
+            <MenuItem component={
+                <NavLink
+                  to="/practice/practice4"
+                  style={styleActive}
+                  /> 
+            }> Практика 4</MenuItem>
+          </SubMenu>
+          <SubMenu label='Материалы'>
+            <MenuItem component={
+              <NavLink
+                to="/files/"
+                style={styleActive}
+                />
+            }>PDF-file</MenuItem>
+            <MenuItem component={
+              <NavLink
+                to="/files/"
+                style={styleActive}
+                />
+            }>Видео</MenuItem>
+            <MenuItem component={
+              <NavLink
+                to="/files/"
+                style={styleActive}
+                />
+            }>Материал_1</MenuItem>
           </SubMenu>
         </Menu>
       </Sidebar>
