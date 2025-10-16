@@ -1415,6 +1415,10 @@ table {
   width: 70px;
 };
 
+.drawing1 {
+  background-image: url(../theory/img/img_practice2/drawing1.png);
+};
+
 .imgP3_1 {
   background-image: url(../theory/img/img_practice3/sum_00_11.png);
 };
