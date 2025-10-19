@@ -70,7 +70,7 @@ const Practice2 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateX"></p></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateS"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>S</i></div>
@@ -81,13 +81,79 @@ const Practice2 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateT"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>T</i></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>-</div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateRx"></p></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>Rx</i></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="setting_Rx"></p></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateRy"></p></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>Ry</i></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="setting_Ry"></p></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateRz"></p></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>Rz</i></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="setting_Rz"></p></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateU1"></p></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>U1</i></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="setting_U1"></p></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateU2"></p></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>U2</i></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="setting_U2"></p></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="gateU3"></p></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>гейт <i>U3</i></div>
+                        </th>
+                        <th>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="setting_U3"></p></div>
                         </th>
                     </tr>
                 </tbody>
@@ -243,19 +309,63 @@ const Practice2 = () => {
             <p>10. Используя однокубитные гейты <i><b>Rx, Ry, U3</b></i> получите кубит в состоянии суперпозиции α|1⟩ + β|0⟩ в соответствии с вариантом, представленном в таблице 2. Выполните симуляцию. Выполните их математическое обоснование результата.</p>
             <p>11. Экспериментально покажите унитарность гейта Адамара. Выполните их математическое обоснование результата.</p>
             <p>12. Используя однокубитный гейт Rx получите кубит в состоянии суперпозиции α|0⟩ + β|1⟩ в соответствии с вариантом, представленном в таблице 2. Далее реализуйте схему, представленную на рис. 1. Выполните симуляцию. Пронаблюдав результаты симуляции выполните их математическое обоснование.</p>
-            <p className="drawing1" align="center"></p>
+            <p align="center"><p className="drawing1"></p></p>
             <p align="center"><i>Рис. 1. Квантовая схема к заданию №12</i></p>
             <p>13. Используя однокубитный гейт Rx получите кубит в состоянии суперпозиции α|0⟩ + β|1⟩ в соответствии с вариантом, представленном в таблице 2. Далее реализуйте схему, представленную на рис. 2. Выполните симуляцию. Пронаблюдав результаты симуляции выполните их математическое обоснование.</p>
-            <p className="practice2-drawing2" align="center"></p>
+            <p align="center"><p className="drawing2"></p></p>
             <p align="center"><i>Рис. 2. Квантовая схема к заданию №13</i></p>
             <p>14. Реализуйте симуляцию схем, представленных на рис. 3. Проанализируйте результаты, выполните их математическое обоснование и поясните различие.</p>
-            <p className="practice2-drawing3" align="center"></p>
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="drawing_a"></p></div>
+                        </th>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="drawing_b"></p></div>
+                        </th>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="drawing_c"></p></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p><i>а</i></p></div>
+                        </th>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p><i>б</i></p></div>
+                        </th>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p><i>в</i></p></div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
             <p align="center"><i>Рис. 3. Квантовые схемы к заданию №14</i></p>
             <p>15. Реализуйте симуляцию схем, представленных на рис. 4. Проанализируйте результаты, выполните их математическое обоснование и поясните различие.</p>
-            <p className="practice2-drawing4" align="center"></p>
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="drawing_2_a"></p></div>
+                        </th>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="drawing_2_b"></p></div>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p><i>а</i></p></div>
+                        </th>
+                        <th className="table_style">
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p><i>б</i></p></div>
+                        </th>
+                    </tr>
+                </tbody>
+            </table>
             <p align="center"><i>Рис. 4. Квантовые схемы к заданию №15</i></p>
             <p>16. Реализуйте трехкубитовую систему, к показано на рис. 5. В данной системы кубиты должны находиться в состояниях суперпозиции согласно варианту в таблице 3. Выполните симуляцию и проанализируйте результаты. </p>
-            <p className="practice2-drawing5" align="center"></p>
+            <p align="center"><p className="drawing3"></p></p>
             <p align="center"><i>Рис. 5. Квантовые схемы к заданию №16</i></p>
             <p align="right"><i>Таблица 2. Варианты заданий</i></p>
             <table align="center">

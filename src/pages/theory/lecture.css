@@ -1392,11 +1392,25 @@ table {
   width: 120px;
   border-collapse: collapse;
   border: 2px solid white;
+  
 }
 
 .table-forml {
   width: 70px;
   border: 2px solid white;
+}
+
+.div-lecture {
+  position: absolute;
+  left: 350px;
+  top: 80px;
+  width: 75%;
+  font-size: 18px;
+  text-align: justify;
+  /*border-radius: 1.5rem;
+  border: 2px solid #e2e8f0;*/
+  padding-bottom: 30px;
+  padding-left: 10px;
 }
 
 .gateH {
@@ -1405,7 +1419,7 @@ table {
   background-size: 100%, 100%;
   height: 70px;
   width: 70px;
-};
+}
 
 .gateX {
   background-image: url(../theory/img/img_practice2/imgX.png);
@@ -1413,12 +1427,406 @@ table {
   background-size: 100%, 100%;
   height: 70px;
   width: 70px;
-};
+}
+
+.gateY {
+  background-image: url(../theory/img/img_practice2/imgY.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 70px;
+  width: 70px;
+}
+
+.gateZ {
+  background-image: url(../theory/img/img_practice2/imgZ.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 70px;
+  width: 70px;
+}
+
+.gateS {
+  background-image: url(../theory/img/img_practice2/imgS.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 70px;
+  width: 70px;
+}
 
 .drawing1 {
   background-image: url(../theory/img/img_practice2/drawing1.png);
-};
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 200px;
+  width: 400px;
+  margin: -16px;
+}
+
+.gateT {
+    background-image: url(../theory/img/img_practice2/imgT.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.gateRx {
+    background-image: url(../theory/img/img_practice2/imgRx.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.setting_Rx {
+    background-image: url(../theory/img/img_practice2/setting_Rx.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 150px;
+    width: 250px;
+}
+
+.setting_Ry {
+    background-image: url(../theory/img/img_practice2/setting_Ry.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 150px;
+    width: 250px;
+}
+
+.gateRy {
+    background-image: url(../theory/img/img_practice2/imgRy.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.gateRz {
+    background-image: url(../theory/img/img_practice2/imgRz.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.setting_Rz {
+    background-image: url(../theory/img/img_practice2/setting_Rz.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 150px;
+    width: 250px;
+}
+
+.setting_U1 {
+    background-image: url(../theory/img/img_practice2/setting_U1.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 150px;
+    width: 250px;
+}
+
+.gateU1 {
+    background-image: url(../theory/img/img_practice2/imgU1.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.setting_U2 {
+    background-image: url(../theory/img/img_practice2/setting_U2.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 200px;
+    width: 250px;
+}
+
+.gateU2 {
+    background-image: url(../theory/img/img_practice2/imgU2.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 70px;
+    width: 70px;
+}
+
+.setting_U3 {
+    background-image: url(../theory/img/img_practice2/setting_U3.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 250px;
+    width: 250px;
+}
+
+.gateU3 {
+    background-image: url(../theory/img/img_practice2/imgU3.png);
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    height: 80px;
+    width: 70px;
+}
+
+.drawing2 {
+  background-image: url(../theory/img/img_practice2/drawing2.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 200px;
+  width: 400px;
+  margin: -16px;
+}
+
+.drawing_a {
+  background-image: url(../theory/img/img_practice2/drawing_a.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 200px;
+  width: 400px;
+
+}
+
+.drawing_b {
+  background-image: url(../theory/img/img_practice2/drawing_b.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 200px;
+  width: 400px;
+
+}
+
+.drawing_c {
+  background-image: url(../theory/img/img_practice2/drawing_c.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 200px;
+  width: 400px;
+}
+
+.table_style {
+  border-color: white;
+}
+
+.drawing_2_a {
+  background-image: url(../theory/img/img_practice2/drawing_2_a.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 250px;
+  width: 340px;
+
+}
+
+.drawing_2_b {
+  background-image: url(../theory/img/img_practice2/drawing_2_b.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 250px;
+  width: 400px;
+
+}
+
+.drawing3 {
+  background-image: url(../theory/img/img_practice2/drawing3.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 250px;
+  width: 400px;
+}
+
+.control_H{
+  background-image: url(../theory/img/img_practice3/gateH_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 200px;
+}
+
+.control_X{
+  background-image: url(../theory/img/img_practice3/gateX_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 180px;
+}
+
+.control_Y{
+  background-image: url(../theory/img/img_practice3/gateY_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.control_Z{
+  background-image: url(../theory/img/img_practice3/gateZ_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.control_Rx{
+  background-image: url(../theory/img/img_practice3/gateRx_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 170px;
+}
+
+.control_Ry{
+  background-image: url(../theory/img/img_practice3/gateRy_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 160px;
+}
+
+.control_Rz{
+  background-image: url(../theory/img/img_practice3/gateRz_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 160px;
+}
+
+.control_U1{
+  background-image: url(../theory/img/img_practice3/gateU1_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 160px;
+}
+
+.control_U2{
+  background-image: url(../theory/img/img_practice3/gateU2_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 160px;
+}
+
+.control_U3{
+  background-image: url(../theory/img/img_practice3/gateU3_control.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 170px;
+  width: 160px;
+}
+
+.control_X_double{
+  background-image: url(../theory/img/img_practice3/gateX_control_double.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 250px;
+  width: 160px;
+}
 
 .imgP3_1 {
   background-image: url(../theory/img/img_practice3/sum_00_11.png);
-};
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 120px;
+  margin-bottom: -16px;
+}
+
+.imgP3_2 {
+  background-image: url(../theory/img/img_practice3/sum_01_10.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 120px;
+  margin-bottom: -16px;
+}
+
+.imgP3_3 {
+  background-image: url(../theory/img/img_practice3/dif_00_11.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 120px;
+  margin-bottom: -16px;
+}
+
+.imgP3_4 {
+  background-image: url(../theory/img/img_practice3/dif_01_10.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 120px;
+  margin-bottom: -16px;
+}
+
+.imgP3_5 {
+  background-image: url(../theory/img/img_practice3/sum_00_01_10_11.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 240px;
+  margin-bottom: -16px;
+}
+
+.imgP3_6 {
+  background-image: url(../theory/img/img_practice3/sum_00_01-10_11.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 240px;
+  margin-bottom: -16px;
+}
+
+.imgP3_7 {
+  background-image: url(../theory/img/img_practice3/sum_00-01_10_11.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 240px;
+  margin-bottom: -16px;
+}
+
+.imgP3_8 {
+  background-image: url(../theory/img/img_practice3/dif_00_01_10_11.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 240px;
+  margin-bottom: -16px;
+}
+
+.imgP3_9 {
+  background-image: url(../theory/img/img_practice3/sum-00-01_10_11.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 240px;
+  margin-bottom: -16px;
+}
+
+.imgP3_10 {
+  background-image: url(../theory/img/img_practice3/sum_010_111.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 140px;
+  margin-bottom: -16px;
+}
+
+.imgP3_11 {
+  background-image: url(../theory/img/img_practice3/sum_001_111.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 140px;
+  margin-bottom: -16px;
+}
+
+.imgP3_12 {
+  background-image: url(../theory/img/img_practice3/dif_001_111.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 50px;
+  width: 140px;
+  margin-bottom: -16px;
+}
+
+.t_overline {
+  text-decoration: overline;
+}

@@ -4,6 +4,21 @@ import { NavLink } from "react-router-dom";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import "./Sidebar.css";
 
+const handlePdfDownload = () => {
+  // Вариант A: Простое открытие
+  //window.open('theory.pdf', '_blank');
+  
+  // Вариант B: Программное создание ссылки для скачивания
+  const link = document.createElement('a');
+  link.href = 'theory.pdf';
+  link.download = 'theory.pdf';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
+
+
 const SidebarMenu = () => {
   const styleActive = ({ isActive }) => ({
     backgroundColor: isActive ? "rgb(0, 114, 188)" : "",
@@ -252,12 +267,11 @@ const SidebarMenu = () => {
             }> Практика 4</MenuItem>
           </SubMenu>
           <SubMenu label='Материалы'>
-            <MenuItem component={
-              <NavLink
-                to="/files/"
-                style={styleActive}
-                />
-            }>PDF-file</MenuItem>
+            <MenuItem 
+              //onClick={saveFile}
+              //style={styleActive}
+
+            >Пособие</MenuItem>
             <MenuItem component={
               <NavLink
                 to="/files/"

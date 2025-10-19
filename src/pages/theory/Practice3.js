@@ -26,7 +26,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_H"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт Адамара</div>
@@ -37,7 +37,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_X"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>X</i></b></div>
@@ -48,7 +48,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_Y"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>Y</i></b></div>
@@ -59,7 +59,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_Z"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>Z</i></b></div>
@@ -70,7 +70,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_Rx"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>Rx</i></b></div>
@@ -81,7 +81,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_Ry"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>Ry</i></b></div>
@@ -92,7 +92,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_Rz"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>Rz</i></b></div>
@@ -103,7 +103,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_U1"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>U1</i></b></div>
@@ -114,7 +114,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_U2"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>U2</i></b></div>
@@ -125,7 +125,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_U3"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Контролируемый гейт <b><i>U3</i></b></div>
@@ -136,7 +136,7 @@ const Practice3 = () => {
                     </tr>
                     <tr>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}></div>
+                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}><p className="control_X_double"></p></div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>Сдвоенный контролируемый гейт <b><i>X</i></b></div>
@@ -149,10 +149,10 @@ const Practice3 = () => {
             </table>
             <h4 align="center">3. Программа работы</h4>
             <p>Выполните следующие пункты работы:</p>
-            <p>1. Реализуйте схему получения запутанного состояния двух кубитов <i className="imgP3_1"></i>. Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>2. Реализуйте схему получения запутанного состояния двух кубитов {" 01 + 10"}. Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>3. Реализуйте схему получения запутанного состояния двух кубитов {" 00 - 11"}. Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>4. Реализуйте схему получения запутанного состояния двух кубитов {" 01 - 10"}. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>1. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_1"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>2. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_2"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>3. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_3"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>4. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_4"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
             <p>5. Реализуйте схему получения запутанного состояния двух кубитов согласно вашему варианту в таблице 2. Выполните симуляцию и обоснование результатов симуляции.</p>
             <p align="right"><i>Таблица 2. Варианты заданий</i></p>
             <table align="center">
@@ -175,7 +175,7 @@ const Practice3 = () => {
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>1</div>
                         </th>
-                        <th>
+                        <th rowSpan={8}>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
                         </th>
                         <th>
@@ -190,9 +190,6 @@ const Practice3 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>2</div>
                         </th>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
-                        </th>
-                        <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
                         </th>
                         <th>
@@ -202,9 +199,6 @@ const Practice3 = () => {
                     <tr>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>3</div>
-                        </th>
-                        <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
@@ -218,9 +212,6 @@ const Practice3 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>4</div>
                         </th>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
-                        </th>
-                        <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
                         </th>
                         <th>
@@ -230,9 +221,6 @@ const Practice3 = () => {
                     <tr>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
-                        </th>
-                        <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>80</div>
@@ -246,9 +234,6 @@ const Practice3 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>6</div>
                         </th>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
-                        </th>
-                        <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>90</div>
                         </th>
                         <th>
@@ -258,9 +243,6 @@ const Practice3 = () => {
                     <tr>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>7</div>
-                        </th>
-                        <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>95</div>
@@ -274,9 +256,6 @@ const Practice3 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>8</div>
                         </th>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|00⟩ + β|11⟩</div>
-                        </th>
-                        <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>5</div>
                         </th>
                         <th>
@@ -287,7 +266,7 @@ const Practice3 = () => {
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>9</div>
                         </th>
-                        <th>
+                        <th rowSpan={8}>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
                         </th>
                         <th>
@@ -300,9 +279,6 @@ const Practice3 = () => {
                     <tr>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
-                        </th>
-                        <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>55</div>
@@ -316,9 +292,6 @@ const Practice3 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>11</div>
                         </th>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
-                        </th>
-                        <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>60</div>
                         </th>
                         <th>
@@ -328,9 +301,6 @@ const Practice3 = () => {
                     <tr>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>12</div>
-                        </th>
-                        <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>70</div>
@@ -344,9 +314,6 @@ const Practice3 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>130</div>
                         </th>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
-                        </th>
-                        <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>10</div>
                         </th>
                         <th>
@@ -356,9 +323,6 @@ const Practice3 = () => {
                     <tr>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>14</div>
-                        </th>
-                        <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>20</div>
@@ -372,9 +336,6 @@ const Practice3 = () => {
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>15</div>
                         </th>
                         <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
-                        </th>
-                        <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>30</div>
                         </th>
                         <th>
@@ -384,9 +345,6 @@ const Practice3 = () => {
                     <tr>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>16</div>
-                        </th>
-                        <th>
-                            <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>α|01⟩ + β|10⟩</div>
                         </th>
                         <th>
                             <div align="center" style={{margin: "10px", paddingLeft: "30px", paddingRight: "30px"}}>70</div>
@@ -690,14 +648,14 @@ const Practice3 = () => {
                 </tbody>
             </table>
             <p>8. Реализуйте схему получения запутанного состояния двух кубитов α|00⟩ + β|01⟩ + γ|11⟩ с вероятностями |α|<sup>2</sup>=|β|<sup>2</sup>=|γ|<sup>2</sup>=33.33..%. Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>9. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>10. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>11. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>12. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>13. Реализуйте схему получения запутанного состояния двух кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>14. Реализуйте схему получения запутанного состояния трех кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>15. Реализуйте схему получения запутанного состояния трех кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
-            <p>16.Реализуйте схему получения запутанного состояния трех кубитов (формула). Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>9. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_5"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>10. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_6"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>11. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_7"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>12. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_8"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>13. Реализуйте схему получения запутанного состояния двух кубитов <img className="imgP3_9"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>14. Реализуйте схему получения запутанного состояния трех кубитов <img className="imgP3_10"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>15. Реализуйте схему получения запутанного состояния трех кубитов <img className="imgP3_11"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
+            <p>16.Реализуйте схему получения запутанного состояния трех кубитов <img className="imgP3_12"></img>. Выполните симуляцию и обоснование результатов симуляции.</p>
             <p>17.Реализуйте схему получения запутанного состояния трех кубитов α|010⟩ + β|111⟩ с вероятностями согласно таблице 2. Выполните симуляцию и обоснование результатов симуляции.</p>
             <p>18.Оформите отчёт по лабораторной работе. Отчет включает в себя скриншоты всех схем и результатов симуляции по программе работы, выводы.</p>
         </div>
