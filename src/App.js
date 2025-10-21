@@ -25,6 +25,7 @@ import LectureGroversAlgorithm from "./pages/theory/LectureGroversAlgorithm";
 import LectureQuantumFourierTransform from "./pages/theory/LectureQuantumFourierTransform";
 import LectureShorsAlgorithm from "./pages/theory/LectureShorsAlgorithm";
 import LectureControlledGates from "./pages/theory/LectureControlledGates";
+import Practice1 from "./pages/theory/Practice1";
 import Practice2 from "./pages/theory/Practice2";
 import Practice3 from "./pages/theory/Practice3";
 import Practice4 from "./pages/theory/Practice4";
@@ -236,7 +237,7 @@ const App = () => {
             element={
               <>
                 <SidebarMenu />
-                <LectureShorsAlgorithm />
+                <Practice1 />
               </>
             }
           />

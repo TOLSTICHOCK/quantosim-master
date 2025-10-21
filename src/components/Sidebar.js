@@ -4,18 +4,18 @@ import { NavLink } from "react-router-dom";
 import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
 import "./Sidebar.css";
 
-const handlePdfDownload = () => {
-  // Вариант A: Простое открытие
-  //window.open('theory.pdf', '_blank');
+// const handlePdfDownload = () => {
+//   // Вариант A: Простое открытие
+//   //window.open('theory.pdf', '_blank');
   
-  // Вариант B: Программное создание ссылки для скачивания
-  const link = document.createElement('a');
-  link.href = 'theory.pdf';
-  link.download = 'theory.pdf';
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
-};
+//   // Вариант B: Программное создание ссылки для скачивания
+//   const link = document.createElement('a');
+//   link.href = 'theory.pdf';
+//   link.download = 'theory.pdf';
+//   document.body.appendChild(link);
+//   link.click();
+//   document.body.removeChild(link);
+// };
 
 
 
@@ -274,16 +274,16 @@ const SidebarMenu = () => {
             >Пособие</MenuItem>
             <MenuItem component={
               <NavLink
-                to="/files/"
+                to="https://quantum.msu.ru/ru/education/online/introduction-to-quantum-computing"
                 style={styleActive}
                 />
-            }>Видео</MenuItem>
+            }>Курс по квантовым<br></br>вычислениям </MenuItem>
             <MenuItem component={
               <NavLink
-                to="/files/"
+                to="https://quantum.msu.ru/ru/education/online/physical-base-for-quantum-computing"
                 style={styleActive}
                 />
-            }>Материал_1</MenuItem>
+            }>Курс по физическим основам<br></br>квантовых вычислений</MenuItem>
           </SubMenu>
         </Menu>
       </Sidebar>
